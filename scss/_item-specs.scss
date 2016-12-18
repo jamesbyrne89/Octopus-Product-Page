@@ -1,0 +1,36 @@
+/* Item specifications */
+
+.item-specifications {
+	margin-top: 3rem;
+	padding: 0.3125rem;
+	h1 {
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-bottom: 1.25rem;
+	}
+}
+
+.specs-table {
+	width: 100%;
+	padding-bottom: 1.25rem;
+	font-size: 0.75em;
+}
+
+tr {
+	width: 100%;
+	display: flex;
+	border-bottom: solid 1px #fff;
+	line-height: 2em;
+}
+th {
+	text-align: left;
+	width: 50%;
+}
+td {
+	width: 50%;
+	padding-left: 0.75rem;
+}
+
+.is-hidden {
+    display: none;
+}

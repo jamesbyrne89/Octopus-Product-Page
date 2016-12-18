@@ -1,0 +1,57 @@
+/* Responsive CSS */
+
+@media (min-width: 768px) {
+    .container-fluid {
+        width: 80%;
+    }
+    .responsive-menu {
+        margin-bottom: 1.25rem;
+    }
+    .mobile-nav {
+        width: 70%;
+        padding: 1.25rem;
+    }
+    .footer__text {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (min-width: 1024px) {
+    .container-fluid {
+        width: 60%;
+    }
+    .mobile-nav {
+        width: 60%;
+        padding: 1.25rem;
+    }
+    .responsive-menu {
+    ul {
+        display: block;
+        width: 40%;
+       }
+    }  
+    .expand {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .specs-table {
+        font-size: 1em;
+}
+    .footer__text {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media (min-width: 1400px) {
+    .container-fluid {
+        width: 40%;
+    }
+    .mobile-nav {
+        width: 50%;
+        padding: 1.25rem;
+    }
+    .footer__text {
+        width: 40%;
+        margin: auto;
+    }
+}

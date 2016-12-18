@@ -1,0 +1,46 @@
+/* Suggested items section */
+
+.suggested-items {
+	margin: 3rem 0rem;
+	overflow: hidden;
+		&__carousel {
+
+	}	
+}
+
+.suggested-items__title {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Suggested items carousel */
+
+.product-info-box--white--secondary {
+	width: 240px;
+	max-width: 100%;
+	margin: 1rem 0.5rem 0px 0.5rem;
+	background-color: #fff;
+	color: #000;
+	height: auto;
+	border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+		overflow: hidden;
+		display: inline-block;
+		flex: 0 0 auto;
+		cursor: pointer;
+	&__header {
+		font-weight: 800;
+		font-size: 1.75em;
+		padding: 1rem;
+		margin: 0;
+		line-height: 1em;
+	}
+	&__price {
+		font-weight: 300;
+		padding: 1rem;
+		margin: 0;
+	}
+	p {
+		margin: 0;
+		line-height: 1.25rem;
+	}
+}
